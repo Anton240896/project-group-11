@@ -45,7 +45,7 @@
 }
 
 .orange {
-    color: orange;
+    color: var(--brand-color);
 }
 
 .name-sellers {
