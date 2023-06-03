@@ -128,5 +128,9 @@
 }
 
 @media screen and (min-width:768px) {
-    .all-img {}
+    .text-btn {
+        display: flex;
+    }
 }
+
+@media screen and (min-width: 768px) {}
