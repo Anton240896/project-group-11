@@ -67,5 +67,47 @@
     .name-sellers {
         margin-bottom: 50px;
     }
+}
 
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .name-sellers {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .name-sellers {
+        margin-top: 128px;
+    }
+}
+
+.text-sellers {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+
+    letter-spacing: -0.02em;
+}
+
+.button-sellers {
+    background: orange;
+    color: var(--background-white);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 12px 28px;
+    width: 120px;
+    height: 41px;
+    border-radius: 100px;
+}
+
+.btn-buy-now {
+    color: var(--background-white);
 }
