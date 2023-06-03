@@ -89,6 +89,7 @@
     line-height: 18px;
     margin-top: 20px;
     margin-bottom: 32px;
+    width: 306px;
 
     letter-spacing: -0.02em;
 }
@@ -113,3 +114,8 @@
 }
 
 .thumb-img-btn {}
+
+.div-nuts-text {
+    display: flex;
+    flex-direction: column;
+}
