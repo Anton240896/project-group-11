@@ -88,19 +88,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
-    margin-top: 20px;
     margin-bottom: 32px;
 
     letter-spacing: -0.02em;
 }
 
-@media screen and (max-width:768px) {
-
-    .all {
-        display: flex;
-
-    }
-}
 
 .button-sellers {
     background: var(--brand-color);
@@ -119,6 +111,9 @@
 
 @media screen and (min-width:768px) {
     .button-sellers {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.2;
         width: 162px;
         height: 50px;
     }
@@ -176,7 +171,8 @@
 .list-sellers {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: space-between;
+    row-gap: 16px;
 }
 
 @media screen and (min-width:768px) {
@@ -194,4 +190,13 @@
         justify-content: space-between;
         align-items: center;
     }
+}
+
+@media screen and (max-width:768px) {
+    .list-sellers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
