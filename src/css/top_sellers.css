@@ -54,7 +54,6 @@
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 32px;
-    margin-top: 72px;
     line-height: 28px;
 
     text-align: center;
@@ -66,18 +65,6 @@
 @media screen and (min-width:768px) {
     .name-sellers {
         margin-bottom: 50px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1199px) {
-    .name-sellers {
-        margin-top: 100px;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    .name-sellers {
-        margin-top: 128px;
     }
 }
 
@@ -158,3 +145,5 @@
     }
 
 }
+
+@
