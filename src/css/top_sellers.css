@@ -97,6 +97,8 @@
     background: var(--brand-color);
     color: var(--background-white);
     font-weight: 600;
+    font-family: Montserrat, sans-serif;
+
     font-size: 14px;
     line-height: 1.21;
     border: none;
@@ -116,20 +118,6 @@
         width: 162px;
         height: 50px;
     }
-}
-
-.btn-hidden-sellers {
-    background: var(--brand-color);
-    color: var(--background-white);
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.21;
-    border: none;
-
-    padding: 12px 28px;
-    width: 120px;
-    height: 41px;
-    border-radius: 100px;
 }
 
 .button-sellers:hover,
